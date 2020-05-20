@@ -113,14 +113,11 @@ class TimerScreen extends Component {
     return (
       <View style={styles.screen}>
         <View style={styles.timerScreen}>
-
-
           <CountDown
-            until={5}
+            until= {20}
             size={50}
             onFinish={() => {
               this.storeData()
-
             }}
             digitStyle={{ backgroundColor: colors.skyblue }}
             digitTxtStyle={{ color: colors.white }}
