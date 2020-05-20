@@ -1,0 +1,3 @@
+import Category from "../Model/Category";
+
+export const CATEGORIES = [new Category("c1", "Wash Your hand ", "#f5428d")];
